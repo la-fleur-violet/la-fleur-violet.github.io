@@ -514,7 +514,7 @@ $on-laptop:        1025 !default;
     
 }
 
-@media screen and (max-width: 1024px) and (min-width: 500px)
+@media screen and (max-width: 1024px) and (min-width: 501px)
 {
     body {
         padding: 0px;
@@ -963,7 +963,7 @@ $on-laptop:        1025 !default;
       
 }
 
-@media screen and (min-width:500px)
+@media screen and (max-width:500px)
 {
     body {
         padding: 0px;
