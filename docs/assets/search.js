@@ -48,19 +48,14 @@ function generateResultElement(ref, titleText, imgRef, content) {
     var body = document.createElement("div");
     var link = document.createElement("a");
 
-    body.style.color = "black"
     link.style.textDecoration = "none"
-    card.style.display = "inline-block"
     link.href = ref;
     img.src = imgRef;
     img.className = "grid-post-image"
     title.textContent = titleText;
     title.className = "grid-post-head"
-    card.style.overflow = "hidden"
-    body.style.overflow = "hidden"
 
     body.textContent = content;
-    img.style.marginRight = "10px";
 
     link.appendChild(img);
     link.appendChild(title);
