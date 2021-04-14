@@ -1,28 +1,41 @@
 <header class="site-header" role="banner">
-
-
-       <nav class="side-nav" id="side-nav">
+    <nav class="side-nav" id="side-nav">
         <img src="/assets/ourclass_branding.svg" class="nav-logo" alt="Quiz Panda" aria-label="Quiz Panda logo">
         <a href="javascript:;" onclick="hideNav()" id="nav-close" aria-label="close navigation drawer">✕</a>
         <hr>
         <ul>
-            <li><a href="https://ourclass-edu.web.app/quizpanda" onclick="hideNav();" class="side-links">Quiz Panda</a></li>
+            <li><a href="https://ourclass-edu.web.app/quizpanda" onclick="hideNav();" class="side-links">Quiz Panda</a>
+            </li>
             <li><a href="https://ourclass-edu.web.app/about" class="side-links">Know Us</a></li>
             <li><a href="https://ourclassedu.blogspot.com" class="side-links">Blog</a></li>
         </ul>
     </nav>
     <div class="dimmer" id="dimmer"></div>
     <nav class="top-nav">
-        <a onclick="showNav();" class="hamburger"><img src="/assets/sandwich.svg" alt="≡"
-            class="menu-button" aria-label="Hamburger menu" id="menu-button"></a>
-            <div class="logo">
-        <a href="https://ourclass-edu.web.app"><img src="/assets/ourclass_branding.svg"></a>
-        <a href="/"><span>Learningspace</span></a>
-    </div>
+        <a onclick="showNav();" class="hamburger"><img src="/assets/sandwich.svg" alt="≡" class="menu-button"
+                aria-label="Hamburger menu" id="menu-button"></a>
+        <div class="logo">
+            <a href="https://ourclass-edu.web.app"><img src="/assets/ourclass_branding.svg"></a>
+            <a href="/"><span id="blog-name">Learningspace</span></a>
+        </div>
         <div class="nav-items">
+            <a href="javascript:;" id="search-show"><i class="icon-search" title="Search"></i></a>
             <a href="https://ourclass-edu.web.app/quizpanda">Quiz Panda</a>
             <a href="https://ourclass-edu.web.app/about">Know Us</a>
             <a href="index.html">Blog</a>
         </div>
     </nav>
+    <div class="search-nav" id="search-nav">
+        <a onclick="showNav();" class="hamburger"><img src="/assets/sandwich.svg" alt="≡" class="menu-button"
+                aria-label="Hamburger menu" id="menu-button"></a>
+        <div class="logo">
+            <a href="https://ourclass-edu.web.app"><img src="/assets/ourclass_branding.svg"></a>
+            <a href="/"><span id="blog-name">Learningspace</span></a>
+        </div>
+        <div id="search-bar">
+            <input type="text" placeholder="Search..." id="search-input">
+            <a href="javascript:;" id="search-button"><i class="icon-search" title="Search"></i></a>
+            <a href="javascript:;" id="cancel-search">✕</a>
+        </div>
+    </div>
 </header>

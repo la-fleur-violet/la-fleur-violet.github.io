@@ -21,3 +21,19 @@ function hideNav() {
     document.body.height = ""
 
 }
+document.addEventListener('DOMContentLoaded',(_event)=>{
+    $('search-show').addEventListener("click",(_event)=>{
+
+        $('search-nav').style.transition = ""
+        $('search-nav').style.transform = "scale(1)"
+        $('search-bar').style.animationName = "slide-in"
+    })
+    $('cancel-search').addEventListener("click",(_event)=>{
+        $('search-bar').style.animationName = "slide-out"
+        $('search-nav').style.transition = "transform 0s linear .3s"
+        $('search-nav').style.transform = "scale(0)"
+    })
+    $('search-button').addEventListener("click",(_event)=>{
+        $('search-nav').style.display = "flex"
+    })
+})
