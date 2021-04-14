@@ -117,11 +117,7 @@ h4 {
 .search-nav .logo{
   width: auto;
 }
-#search-bar{
-  flex:auto;
-  text-align: center;
-  animation-duration: 300ms;
-}
+
 #s-n{
   font-size: xx-large;
   font-weight: bold;
@@ -133,6 +129,9 @@ h4 {
   font-size: x-large;
   margin-bottom: 20px;
 } 
+.search-nav .hamburger{
+  padding-top: 15px;
+}
 @keyframes slide-in {
   0%{
     transform: scaleX(0);
@@ -149,15 +148,7 @@ h4 {
     transform: scaleX(0);
   }
 }
-#search-input{
-  height: 50px;
-  margin-top: 7px;
-  padding: 10px;
-  box-sizing: border-box;
-  font-size: 20px;
-  text-align: left;
-  width: 80%;
-}
+
 #search-button{
   display: inline-block;
   transform: scale(2) translate(10px);
@@ -167,6 +158,20 @@ h4 {
   transform: scale(2) translate(20px, -2px);
 }
 @media screen and (min-width: 1025px) {
+  #search-input{
+    height: 50px;
+    margin-top: 7px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+    text-align: left;
+    width: 80%;
+  }
+  #search-bar{
+    flex:auto;
+    text-align: center;
+    animation-duration: 300ms;
+  }
   .home{
     width: 80%;
     margin-left: auto;
@@ -576,6 +581,19 @@ h4 {
 }
 
 @media screen and (max-width: 1024px) and (min-width: 501px) {
+  #search-input{
+    height: 50px;
+    margin-top: 7px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+    text-align: left;
+    width: 80%;
+  }#search-bar{
+    flex:auto;
+    text-align: center;
+    animation-duration: 300ms;
+  }
   body {
     padding: 0px;
     margin: 0px;
@@ -608,8 +626,15 @@ h4 {
     background-color: white;
   }
   .nav-items {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+  }
+  .nav-items a:not(#search-show){
     display: none;
   }
+  
   .logo img {
     height: 30px;
   }
@@ -959,6 +984,21 @@ h4 {
 }
 
 @media screen and (max-width: 500px) {
+  #search-input{
+    height: 50px;
+    margin-top: 7px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+    text-align: left;
+    width: 70%;
+    background-color:white
+  }
+  #search-bar{
+    flex:auto;
+    text-align: left;
+    animation-duration: 300ms;
+  }
   .post-cont{
     width:90%; 
     margin-left: auto;
@@ -999,9 +1039,17 @@ h4 {
     background-color: white;
   }
   .nav-items {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+  }
+  .nav-items a:not(#search-show){
     display: none;
   }
-
+.search-nav .logo{
+  display: none;
+}
   .hamburger {
     z-index: 12;
     cursor: pointer;
