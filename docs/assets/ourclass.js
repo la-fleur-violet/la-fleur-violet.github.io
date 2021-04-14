@@ -27,6 +27,7 @@ document.addEventListener('DOMContentLoaded',(_event)=>{
         $('search-nav').style.transition = ""
         $('search-nav').style.transform = "scale(1)"
         $('search-bar').style.animationName = "slide-in"
+        $('search-input').focus()
     })
     $('cancel-search').addEventListener("click",(_event)=>{
         $('search-bar').style.animationName = "slide-out"
@@ -34,6 +35,29 @@ document.addEventListener('DOMContentLoaded',(_event)=>{
         $('search-nav').style.transform = "scale(0)"
     })
     $('search-button').addEventListener("click",(_event)=>{
-        $('search-nav').style.display = "flex"
+        const keywords = $('search-input').value;
+        $('search-input').value = ""
+       window.location = "search?keys="+keywords
+    })
+    $('search-nav').addEventListener("focusout",(event)=>{
+        if (!event.currentTarget.contains(event.relatedTarget)) {
+      
+        $('search-bar').style.animationName = "slide-out"
+        $('search-nav').style.transition = "transform 0s linear .3s"
+        $('search-nav').style.transform = "scale(0)" 
+    
+    }
+    })
+    $('search-input').addEventListener("keydown",(event)=>{
+        if (event.keyCode === 13) {
+        const keywords = event.target.value 
+        event.target.value = ""
+        window.location = "search?keys="+keywords
+        }
+        else if(event.keyCode === 27) {
+            $('search-bar').style.animationName = "slide-out"
+        $('search-nav').style.transition = "transform 0s linear .3s"
+        $('search-nav').style.transform = "scale(0)"
+        }
     })
 })

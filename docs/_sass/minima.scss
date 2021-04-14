@@ -122,6 +122,17 @@ h4 {
   text-align: center;
   animation-duration: 300ms;
 }
+#s-n{
+  font-size: xx-large;
+  font-weight: bold;
+}
+#s-k{
+  font-weight: bold;
+}
+#search-count{
+  font-size: x-large;
+  margin-bottom: 20px;
+} 
 @keyframes slide-in {
   0%{
     transform: scaleX(0);
