@@ -170,6 +170,7 @@ h4 {
   background-color: #419d78;
   padding: 10px 20px 10px 20px;
   font-size: 1.2em;
+  border-radius: 5px;
 }
 
 img + em{
@@ -186,6 +187,7 @@ img + em{
   background-color: #419d78;
   color: white;
   padding: 10px 20px 10px 20px;
+  border-radius: 5px;
 }
 #subs-button{
   background-color: #419d78;
@@ -193,7 +195,8 @@ img + em{
   padding: 10px 20px 10px 20px;
   border: 0px;
   font-size: 16px;
-  cursor: pointer;
+  cursor: pointer; 
+  border-radius: 5px;
 }
 #subs-email{
   width: 70%;
