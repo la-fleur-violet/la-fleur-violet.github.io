@@ -196,6 +196,21 @@
     border-radius: 5px;
     padding: 10px;
     margin-bottom: $spacing-unit;
+   
+  }
+}
+
+.feat-post-list{
+  margin-left: 0;
+
+  > li {
+    list-style: none;
+    margin-left: 10px; margin-left: 10px;
+    box-shadow: 0px 0px 5px 0px black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: $spacing-unit;
+   
   }
 }
 .related-posts {

@@ -12,52 +12,58 @@ function showNav() {
 }
 function hideNav() {
 
-   // $('side-nav').style.left = "-70vw"
-   $('side-nav').style.transition = "transform 0.5s ease-in-out"
-   $('side-nav').style.transform = "translateX(-70vw)"
-   
+    // $('side-nav').style.left = "-70vw"
+    $('side-nav').style.transition = "transform 0.5s ease-in-out"
+    $('side-nav').style.transform = "translateX(-70vw)"
+
     $('dimmer').style.animationName = "hideanim"
     document.body.style.overflow = "scroll"
     document.body.height = ""
 
 }
-document.addEventListener('DOMContentLoaded',(_event)=>{
-    $('search-show').addEventListener("click",(_event)=>{
-
-        $('search-nav').style.transition = ""
-        $('search-nav').style.transform = "scale(1)"
-        $('search-bar').style.animationName = "slide-in"
-        $('search-input').focus()
+document.addEventListener('DOMContentLoaded', (_event) => {
+    $('search-show').addEventListener("click", (_event) => {
+        showSearch();
     })
-    $('cancel-search').addEventListener("click",(_event)=>{
-        $('search-bar').style.animationName = "slide-out"
-        $('search-nav').style.transition = "transform 0s linear .3s"
-        $('search-nav').style.transform = "scale(0)"
+    $('cancel-search').addEventListener("click", (_event) => {
+       hideSearch();
     })
-    $('search-button').addEventListener("click",(_event)=>{
-        const keywords = $('search-input').value;
-        $('search-input').value = ""
-       window.location = "search?keys="+keywords
+    $('search-button').addEventListener("click", (_event) => {
+        search();
     })
-    $('search-nav').addEventListener("focusout",(event)=>{
+    $('search-nav').addEventListener("focusout", (event) => {
         if (!event.currentTarget.contains(event.relatedTarget)) {
-      
-        $('search-bar').style.animationName = "slide-out"
-        $('search-nav').style.transition = "transform 0s linear .3s"
-        $('search-nav').style.transform = "scale(0)" 
-    
-    }
-    })
-    $('search-input').addEventListener("keydown",(event)=>{
-        if (event.keyCode === 13) {
-        const keywords = event.target.value 
-        event.target.value = ""
-        window.location = "search?keys="+keywords
+
+            hideSearch();
+
         }
-        else if(event.keyCode === 27) {
-            $('search-bar').style.animationName = "slide-out"
-        $('search-nav').style.transition = "transform 0s linear .3s"
-        $('search-nav').style.transform = "scale(0)"
+    })
+    $('search-input').addEventListener("keydown", (event) => {
+        if (event.keyCode === 13) {
+            search();
+        }
+        else if (event.keyCode === 27) {
+          hideSearch();
         }
     })
 })
+
+function showSearch() {
+
+    $('search-nav').style.transition = ""
+    $('search-nav').style.transform = "scale(1)"
+    $('search-bar').style.animationName = "slide-in"
+    $('search-input').focus()
+}
+function hideSearch() {
+    $('search-bar').style.animationName = "slide-out"
+    $('search-nav').style.transition = "transform 0s linear .3s"
+    $('search-nav').style.transform = "scale(0)"
+}
+
+function search()
+{
+    const keywords = $('search-input').value;
+        $('search-input').value = ""
+        window.location = "search?keys=" + keywords
+}

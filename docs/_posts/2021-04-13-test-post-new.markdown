@@ -5,7 +5,8 @@ date:   2021-04-13 11:10:34 +0530
 categories: new test small
 related_image: "/assets/laptop.jpg"
 excerpt: A blog is a discussion or informational website published on the World Wide Web consisting of discrete, often informal diary-style text...
-featured: 0
+featured: 1
+hidden: true
 tags: new test big
 ---
 ![My helpful screenshot](/assets/laptop.jpg)

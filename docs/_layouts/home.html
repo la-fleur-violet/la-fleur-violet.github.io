@@ -28,39 +28,48 @@ layout: default
     {%- endif %}
     {%- endfor -%}
   </a>
-  <ul class="post-list">
+  <ul class="feat-post-list">
     {%- for post in site.posts -%}
     {%- if post.featured > 0 -%}
-    {%- if post.featured < 2 -%}
-    <li>
-        <a href="{{ post.url }}">
+    {%- if post.featured < 2 -%} <li>
+      <a href="{{ post.url }}">
         {% if post.related_image %}
-        <div style="background-image: url({{ post.related_image }});" class="grid-post-image"></div>
+        <div style="background-image: url({{ post.related_image }});" class="feat-post-image"></div>
         {% endif %}
 
         <a class="grid-post-head" href="{{ post.url }}">{{ post.title }}</a>
         <p>{{ post.excerpt }}</p>
       </a>
-    </li>
-    {%- endif %}
-    {%- endif %}
-    {%- endfor -%}
-  </ul>
-  <h2 class="post-list-heading">{{ page.list_title | default: "Latest" }}</h2>
-  <ul class="post-list">
-    {%- for post in site.posts -%}
-    {%- if post.featured < 1 -%} <li>
-      {% if post.related_image %}
-      <img src="{{ post.related_image }}" alt="">
-      {% endif %}
-
-      <a class="grid-post-head" href="{{ post.url }}">{{ post.title }}</a>
-      <p>{{ post.excerpt }}</p>
       </li>
+      {%- endif %}
       {%- endif %}
       {%- endfor -%}
   </ul>
+  <h2 class="post-list-heading">{{ page.list_title | default: "Latest" }}</h2>
+  <ul class="post-list">
+    {% for post in site.posts %}
+
+      {% if forloop.index <= 12 %}
+        {% if post.featured < 1 %} <li>
+          <a href="{{ post.url }}">
+          {% if post.related_image %}
+            <div style="background-image: url({{ post.related_image }});" class="grid-post-image"></div>
+          {% endif %}
+
+          <a class="grid-post-head" href="{{ post.url }}">{{ post.title }}</a>
+          <p>{{ post.excerpt }}</p>
+        </a>
+          </li>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </ul>
+  {%- if site.posts.size > 11 -%}
+  <div style="text-align: center;">
+    <a class="button-link" href="/page/2">View More</a>
+  </div>
+  {%- endif -%}
   <p class="rss-subscribe">subscribe <a href="{{ " /feed.xml" | relative_url }}">via RSS</a></p>
   {%- endif -%}
-
 </div>
+  </div>

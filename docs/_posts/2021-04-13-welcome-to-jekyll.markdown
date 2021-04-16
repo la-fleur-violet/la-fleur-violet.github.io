@@ -6,6 +6,7 @@ categories: old deep small
 related_image: "/assets/postimage.jpg"
 excerpt: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes.
 featured: 1
+hidden: true
 tags: old test big
 ---
 ![My helpful screenshot](/assets/screenshot.jpg)
