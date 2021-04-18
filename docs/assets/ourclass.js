@@ -65,5 +65,5 @@ function search()
 {
     const keywords = $('search-input').value;
         $('search-input').value = ""
-        window.location = "search?keys=" + keywords
+        window.location = "/search?keys=" + keywords
 }

@@ -59,6 +59,7 @@ function generateResultElement(ref, titleText, imgRef, content) {
     img.style.backgroundImage = "url("+imgRef+")";
     img.className = "grid-post-image"
     title.textContent = titleText;
+    title.title = titleText;
     title.className = "grid-post-head"
 
     body.textContent = content;
