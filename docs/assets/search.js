@@ -112,7 +112,15 @@ function showPage(page){
         $('next-page').style.opacity = "1"
         $('next-page').textContent = page+1;
     }
-
+    if(tp <=2)
+    {
+        $('last-page').style.opacity = "0"  
+        $('first-page').style.opacity = "0"
+    }
+    else{
+        $('last-page').style.opacity = "1"  
+        $('first-page').style.opacity = "1"
+    }
 
     if(tp === 1)
     {

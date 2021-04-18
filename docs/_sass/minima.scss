@@ -162,9 +162,7 @@ h4 {
   display: inline-block;
   transform: scale(2) translate(20px, -2px);
 }
-#search-bar{
-  animation-duration: 300ms;
-}
+
 .button-link
 {
   color:white  !important;
@@ -252,15 +250,20 @@ line-height: 3;
   text-align: center;
   >a:not(.last):not(.first){
     margin: 5px;
-    padding: 5px 8px 5px 8px;
-    border: 1px solid #419d78;
-    color: #419d78;
+    padding: 4px 10px 4px 10px;
+    border-radius: 5px;
+    background-color: #419d78;
+    color: white;
+    font-kerning: normal;
   }
   > span{ 
     margin: 5px;
-    padding: 5px 8px 5px 8px;
-    border: 1px solid #f85759;
-    color: #f85759;
+    padding: 5px 11px 5px 11px;
+    border-radius: 5px;
+    background-color: #f85759;
+    color: white;
+    font-kerning: normal;
+    font-weight: bold;
   }
 }
 @media screen and (min-width: 1025px) {
@@ -283,6 +286,12 @@ line-height: 3;
     text-align: center;
     animation-duration: 300ms;
   }
+  .hider{
+    transition: transform 0s linear .3s
+  }
+  .shower{
+    transition: none;
+  }
   .home{
     width: 80%;
     margin-left: auto;
@@ -303,7 +312,7 @@ line-height: 3;
   }
   .post-list > li {
     display: inline-block;
-    width: 30%;
+    width: calc(33% - 35px);
     vertical-align: text-top;
   }
   .feat-post-list > li{
@@ -1131,7 +1140,13 @@ line-height: 3;
   #search-bar{
     flex:auto;
     text-align: left;
-    animation-duration: 300ms;
+    animation-duration: 100ms;
+  }
+  .hider{
+    transition: transform 0s linear .1s
+  }
+  .shower{
+    transition: none;
   }
   .post-title{
     font-size: 1.7em;

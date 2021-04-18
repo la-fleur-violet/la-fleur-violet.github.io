@@ -50,14 +50,15 @@ document.addEventListener('DOMContentLoaded', (_event) => {
 
 function showSearch() {
 
-    $('search-nav').style.transition = ""
+    $('search-nav').className = 'search-nav'
+    console.log( $('search-nav').className)
     $('search-nav').style.transform = "scale(1)"
     $('search-bar').style.animationName = "slide-in"
     $('search-input').focus()
 }
 function hideSearch() {
     $('search-bar').style.animationName = "slide-out"
-    $('search-nav').style.transition = "transform 0s linear .3s"
+    $('search-nav').className = $('search-nav').className + " hider"
     $('search-nav').style.transform = "scale(0)"
 }
 
