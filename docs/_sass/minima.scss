@@ -138,24 +138,9 @@ h4 {
   margin-bottom: 20px;
 } 
 .search-nav .hamburger{
-  padding-top: 15px;
+  padding-top: 17px;
 }
-@keyframes slide-in {
-  0%{
-    transform: scaleX(0);
-  }
-  100%{
-    transform: scaleX(1);
-  }
-}
-@keyframes slide-out {
-  0%{
-    transform: scaleX(1);
-  }
-  100%{
-    transform: scaleX(0);
-  }
-}
+
 
 #search-button{
   display: inline-block;
@@ -207,7 +192,7 @@ img + em{
   border-radius: 5px;
 }
 #subs-email{
-  width: 70%;
+
   padding: 9px 20px 9px 20px;
   font-size: 16px;
   border: 1px solid #9bffd7 ;
@@ -222,10 +207,15 @@ img + em{
   border: 1px solid #b80000 ;
   background-color: #ff9393;
 }
-.subs-foot > hr{
+.subs-foot {
+  > hr{
   height: 3px;
   background-color: #595c63;
   border-radius: 10px;
+}
+ a{
+  font-weight: bold;
+}
 }
 .subs-foot-subs-page{
   box-shadow: 0px 0px 5px 0px grey;
@@ -275,6 +265,22 @@ line-height: 3;
 
   padding: 10px;
   }
+  @keyframes slide-in {
+    0%{
+      transform: scaleX(0);
+    }
+    100%{
+      transform: scaleX(1);
+    }
+  }
+  @keyframes slide-out {
+    0%{
+      transform: scaleX(1);
+    }
+    100%{
+      transform: scaleX(0);
+    }
+  }
   #search-input{
     height: 50px;
     margin-top: 7px;
@@ -282,12 +288,16 @@ line-height: 3;
     box-sizing: border-box;
     font-size: 20px;
     text-align: left;
-    width: 80%;
+    width: calc(100% - 150px);
+  }
+  #search-input:focus{
+    outline-color: #419d78;
   }
   #search-bar{
     flex:auto;
     text-align: center;
     animation-duration: 300ms;
+   
   }
   .hider{
     transition: transform 0s linear .3s
@@ -308,6 +318,9 @@ line-height: 3;
   .post{
     width: 60%;
     display: inline-block;
+  }
+  #subs-email{
+    width: 70%;
   }
   .related{
     float:right; 
@@ -347,7 +360,6 @@ line-height: 3;
     font-size: 1.5em;
   }
   body a {
-    color: #5a5d64;
     text-decoration: none;
   }
   body a:hover {
@@ -720,6 +732,22 @@ line-height: 3;
 
   padding: 10px;
   }
+  @keyframes slide-in {
+    0%{
+      transform: scaleX(0);
+    }
+    100%{
+      transform: scaleX(1);
+    }
+  }
+  @keyframes slide-out {
+    0%{
+      transform: scaleX(1);
+    }
+    100%{
+      transform: scaleX(0);
+    }
+  }
   #search-input{
     height: 50px;
     margin-top: 7px;
@@ -727,12 +755,19 @@ line-height: 3;
     box-sizing: border-box;
     font-size: 20px;
     text-align: left;
-    width: 80%;
+    width: calc(100% - 104px);
   }#search-bar{
     flex:auto;
     text-align: center;
     animation-duration: 300ms;
   }
+  #subs-email{
+    width: 60%;
+  }
+  #subs-button{
+    display: inline-block
+  }
+
   body {
     padding: 0px;
     margin: 0px;
@@ -1130,6 +1165,26 @@ line-height: 3;
   margin: 10px;
   box-sizing: border-box;
   }
+  @keyframes slide-in {
+    0%{
+      transform: translateY(-70px);
+      opacity: 0;
+    }
+    100%{
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-out {
+    0%{
+      transform: translateY(0px);
+      opacity: 1;
+    }
+    100%{
+      transform: translateY(-20px);
+      opacity: 0;
+    }
+  }
   #search-input{
     height: 50px;
     margin-top: 7px;
@@ -1137,9 +1192,11 @@ line-height: 3;
     box-sizing: border-box;
     font-size: 20px;
     text-align: left;
-    width: 70%;
+    width: calc(100% - 90px);
     background-color:white
+    
   }
+ 
   #search-bar{
     flex:auto;
     text-align: left;
@@ -1161,6 +1218,14 @@ line-height: 3;
   }
   .post{
     display: block;
+  }
+  #subs-email{
+    width: 100%;
+  }
+  #subs-button{
+    width: 100%;
+    display: block;
+    margin-top: 10px;
   }
   body {
     padding: 0px;
@@ -1351,7 +1416,7 @@ line-height: 3;
   }
 
   .logo img {
-    height: 25px;
+    height: 30px;
   }
   .logo {
     padding-top: 17px;
@@ -1360,7 +1425,7 @@ line-height: 3;
   }
   .logo span {
     display: inline-block;
-    font-size: 1em;
+    font-size: 1.3em;
     position: absolute;
     width: fit-content;
     width: -moz-fit-content;
