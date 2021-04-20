@@ -146,6 +146,9 @@ h4 {
   display: inline-block;
   transform: scale(2) translate(10px);
 }
+#search-input:focus{
+  outline-color: #419d78;
+}
 #cancel-search{
   display: inline-block;
   transform: scale(2) translate(20px, -2px);
@@ -290,9 +293,7 @@ line-height: 3;
     text-align: left;
     width: calc(100% - 150px);
   }
-  #search-input:focus{
-    outline-color: #419d78;
-  }
+  
   #search-bar{
     flex:auto;
     text-align: center;
