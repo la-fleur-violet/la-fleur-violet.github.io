@@ -146,8 +146,14 @@ h4 {
   display: inline-block;
   transform: scale(2) translate(10px);
 }
+#search-input{
+
+  border-color: #595C63;
+  border-style: solid;
+}
 #search-input:focus{
   outline-color: #419d78;
+  border-color: #419d78;
 }
 #cancel-search{
   display: inline-block;
@@ -735,18 +741,22 @@ line-height: 3;
   }
   @keyframes slide-in {
     0%{
-      transform: scaleX(0);
+      transform: translateY(-70px);
+      opacity: 0;
     }
     100%{
-      transform: scaleX(1);
+      transform: translateY(0px);
+      opacity: 1;
     }
   }
   @keyframes slide-out {
     0%{
-      transform: scaleX(1);
+      transform: translateY(0px);
+      opacity: 1;
     }
     100%{
-      transform: scaleX(0);
+      transform: translateY(-30px);
+      opacity: 0;
     }
   }
   #search-input{
@@ -756,11 +766,20 @@ line-height: 3;
     box-sizing: border-box;
     font-size: 20px;
     text-align: left;
-    width: calc(100% - 104px);
+    width: calc(100% - 95px);
   }#search-bar{
     flex:auto;
-    text-align: center;
+    text-align: left;
     animation-duration: 300ms;
+  }
+  #search-nav .hamburger{
+    padding-top: 17px;
+  }
+  .hider{
+    transition: transform 0s linear .3s
+  }
+  .shower{
+    transition: none;
   }
   #subs-email{
     width: 60%;
@@ -796,8 +815,9 @@ line-height: 3;
   .top-nav {
     height: 64px;
     width: 100%;
-    position: absolute;
+    position: fixed;
     top: 0;
+    z-index: 5;
     background-color: white;
   }
   .nav-items {
@@ -809,12 +829,14 @@ line-height: 3;
   .nav-items a:not(#search-show){
     display: none;
   }
-  
+  .search-nav .logo{
+    display: none;
+  }
   .logo img {
     height: 30px;
   }
   .logo {
-    padding-top: 25px;
+    padding-top: 17px;
     width: 50%;
     display: inline-block;
   }
@@ -825,6 +847,7 @@ line-height: 3;
     width: fit-content;
     width: -moz-fit-content;
     padding-left: 20px;
+    transform: translateY(-4px);
   }
   .hamburger {
     z-index: 12;
@@ -837,6 +860,7 @@ line-height: 3;
     display: inline-block;
     box-sizing: border-box;
   }
+  
   .dimmer {
     background-color: rgba(0, 0, 0, 0.76);
     width: 100%;
