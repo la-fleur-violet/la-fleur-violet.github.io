@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 10 Tips to Score Higher Marks in UGC NET Paper I
-date: 2021-04-22 02:24:04 +0530
+date: 2021-04-22 02:24:53 +0530
 categories: NTA NET
 related_image: assets/art2.svg
 excerpt: Hello future professors, Greetings from Ourclass! In this blog, we will share with you 10 tips to score higher marks in UGC NET Paper I.
