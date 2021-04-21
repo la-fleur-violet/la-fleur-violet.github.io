@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Test Blog Post!"
+title:  Test Blog Post!
 date:   2021-04-13 11:10:34 +0530
 categories: new test small
 related_image: "/assets/laptop.jpg"

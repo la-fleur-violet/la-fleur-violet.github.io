@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Developing Instruction Strategies and Curriculum"
+title:  Developing Instruction Strategies and Curriculum
 date:   2021-03-02 11:10:34 +0530
 categories: new test small
 related_image: "/assets/curriculum.svg"

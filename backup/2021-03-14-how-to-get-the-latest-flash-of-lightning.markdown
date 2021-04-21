@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to Get the Latest Flash of Lightning"
+title:  How to Get the Latest Flash of Lightning
 date:   2021-03-14 11:10:34 +0530
 categories: new test small
 related_image: "/assets/lightning.jpg"

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Holden As An Unreliable Narrator"
+title:  Holden As An Unreliable Narrator
 date:   2021-03-04 11:10:34 +0530
 categories: new test small
 related_image: "/assets/catcher.jpg"

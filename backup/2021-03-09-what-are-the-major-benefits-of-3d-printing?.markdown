@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "What Are The Major Benefits Of 3D Printing?"
+title:  What Are The Major Benefits Of 3D Printing?
 date:   2021-03-09 11:10:34 +0530
 categories: new test small
 related_image: "/assets/3d_printer.png"

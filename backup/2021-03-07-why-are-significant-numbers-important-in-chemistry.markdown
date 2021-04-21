@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Why Are Significant Numbers Important in Chemistry?"
+title:  Why Are Significant Numbers Important in Chemistry?
 date:   2021-03-07 11:10:34 +0530
 categories: new test small
 related_image: "/assets/chemistry.jpg"

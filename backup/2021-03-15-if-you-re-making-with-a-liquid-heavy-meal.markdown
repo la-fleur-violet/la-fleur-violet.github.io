@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "If you’re making with a liquid-heavy meal"
+title:  If you’re making with a liquid-heavy meal
 date:   2021-04-13 11:10:34 +0530
 categories: new test small
 related_image: "/assets/meal.jpg"

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Pedagogical Methods for Teaching Music"
+title:  Pedagogical Methods for Teaching Music
 date:   2021-03-05 11:10:34 +0530
 categories: new test small
 related_image: "/assets/music.jpg"

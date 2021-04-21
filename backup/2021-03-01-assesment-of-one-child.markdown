@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Assessment of one child’s speaking, listening, reading and writing skills"
+title:  Assessment of one child’s speaking, listening, reading and writing skills
 date:   2021-03-01 11:10:34 +0530
 categories: new test small
 related_image: "/assets/child-write.png"

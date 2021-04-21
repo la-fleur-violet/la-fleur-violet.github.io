@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What is Discovery"
+title: What is Discovery
 date:   2021-03-13 11:10:34 +0530
 categories: new test small
 related_image: "/assets/discover.svg"

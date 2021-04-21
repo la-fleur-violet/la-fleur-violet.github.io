@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A Complete Cell Phone Repair Guide"
+title:  A Complete Cell Phone Repair Guide
 date:   2021-03-10 11:10:34 +0530
 categories: new test small
 related_image: "/assets/phone_repair.jpg"

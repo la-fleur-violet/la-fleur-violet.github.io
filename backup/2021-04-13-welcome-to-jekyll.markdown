@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  Welcome to Jekyll!
 date:   2021-04-13 11:10:34 +0530
 categories: old deep small
 related_image: "/assets/postimage.jpg"

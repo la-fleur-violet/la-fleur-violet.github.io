@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Effect of Globalization on Education!"
+title:  Effect of Globalization on Education
 date:   2021-04-13 11:10:34 +0530
 categories: new test small
 related_image: "/assets/global.png"

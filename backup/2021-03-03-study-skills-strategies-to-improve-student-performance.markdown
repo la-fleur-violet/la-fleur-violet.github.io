@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Study Skills Strategies to Improve Student Performance"
+title:  Study Skills Strategies to Improve Student Performance
 date:   2021-03-03 11:10:34 +0530
 categories: new test small
 related_image: "/assets/improve.jpg"

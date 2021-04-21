@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Save The Pacific Northwest Tree Octopus"
+title:  Save The Pacific Northwest Tree Octopus
 date:   2021-03-11 11:10:34 +0530
 categories: new test small
 related_image: "/assets/tree_octopus.jpg"

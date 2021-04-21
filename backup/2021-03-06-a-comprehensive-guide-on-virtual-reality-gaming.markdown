@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A Comprehensive Guide on Virtual Reality Gaming"
+title:  A Comprehensive Guide on Virtual Reality Gaming
 date:   2021-03-06 11:10:34 +0530
 categories: new test small
 related_image: "/assets/vr.jpg"

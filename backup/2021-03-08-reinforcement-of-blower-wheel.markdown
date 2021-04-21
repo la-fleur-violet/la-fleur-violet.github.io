@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Reinforcement Of Blower Wheel"
+title:  Reinforcement Of Blower Wheel
 date:   2021-03-08 11:10:34 +0530
 categories: new test small
 related_image: "/assets/blower_wheel.jpg"

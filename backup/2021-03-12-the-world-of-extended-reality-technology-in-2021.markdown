@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The World of Extended Reality Technology in 2021"
+title:  The World of Extended Reality Technology in 2021
 date:   2021-03-12 11:10:34 +0530
 categories: new test small
 related_image: "/assets/xt_real.jpg"
