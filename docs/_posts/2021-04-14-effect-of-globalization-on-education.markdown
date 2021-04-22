@@ -6,7 +6,7 @@ categories: Education
 related_image: assets/global.png
 excerpt: Globalization brings many changes to people’s lives all over the world. There are several definitions of globalization however...
 featured: 0
-tags: general-education essay 
+tags: general education essay 
 ---
 ![Head Image](/assets/global.png)
 Globalization brings many changes to people’s lives all over the 
