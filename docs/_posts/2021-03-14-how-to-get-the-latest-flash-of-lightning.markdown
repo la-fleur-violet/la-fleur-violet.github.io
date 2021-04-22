@@ -3,7 +3,7 @@ layout: post
 title: How to Get the Latest Flash of Lightning
 date: 2021-03-14 06:30:00 +0530
 categories: Nonsense
-related_image: assets/lightning.jpg
+related_image: assets/files/lightning.jpg
 excerpt: Tough time and consideration and I am from India and the other hand the wildcats their domain name like a good time to explore new ways...
 featured: 0
 tags: nonsense writeup autocorrect 
