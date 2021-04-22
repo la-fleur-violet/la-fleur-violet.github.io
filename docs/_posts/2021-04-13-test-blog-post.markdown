@@ -6,7 +6,7 @@ categories: Test Post
 related_image: assets/laptop.jpg
 excerpt: A blog is a discussion or informational website published on the World Wide Web consisting of discrete, often informal diary-style text...
 featured: 1
-tags: new-test big 
+tags: new test big 
 ---
 ![My helpful screenshot](/assets/laptop.jpg)
 A **blog** (a [truncation](https://en.wikipedia.org/wiki/Clipping_(morphology) "Clipping (morphology)") of "**weblog**")[[1]](https://en.wikipedia.org/wiki/Blog#cite_note-1) is a discussion or informational [website](https://en.wikipedia.org/wiki/Website "Website") published on the [World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web "World Wide Web") consisting of discrete, often informal diary-style text entries (posts). Posts are typically displayed in [reverse chronological order](https://en.wikipedia.org/wiki/Reverse_chronology "Reverse chronology"), so that the most recent post appears first, at the top of the [web page](https://en.wikipedia.org/wiki/Web_page "Web page"). Until 2009, blogs were usually the work of a single individual,[*[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation_needed "Wikipedia:Citation needed")*] occasionally of a small group, and often covered a single subject or 
