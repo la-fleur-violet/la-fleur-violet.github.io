@@ -3,7 +3,7 @@ layout: post
 title: Test Blog Post!
 date: 2021-04-13 09:44:00 +0530
 categories: Test Post
-related_image: assets/laptop.jpg
+related_image: assets/files/laptop.jpg
 excerpt: A blog is a discussion or informational website published on the World Wide Web consisting of discrete, often informal diary-style text...
 featured: 1
 tags: new test big 
