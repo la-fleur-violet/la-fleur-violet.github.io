@@ -6,7 +6,7 @@ categories: Nonsense
 related_image: assets/meal.jpg
 excerpt: You may have heard that is just not only difficult to remove (especially if you would be more that a piece of raw potatoes).
 featured: 0
-tags: nonsense-writeup  
+tags: nonsense writeup  
 ---
 ![Head Image](/assets/meal.jpg)
 
