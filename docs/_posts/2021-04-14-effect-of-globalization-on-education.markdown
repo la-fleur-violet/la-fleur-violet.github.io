@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Effect of Globalization on Education
-date: 2021-04-23 19:26:25 +0530
+date: 2021-04-14 02:38:00 +0530
 categories: Education
 related_image: assets/files/global.png
 excerpt: Globalization brings many changes to people’s lives all over the world. There are several definitions of globalization however...
