@@ -3,13 +3,14 @@ layout: post
 title: Effect of Globalization on Education
 date: 2021-04-14 02:38:00 +0530
 categories: Education
+author: I9JHBFuWUcYot74x
 related_image: assets/files/global.png
 excerpt: Globalization brings many changes to people’s lives all over the world. There are several definitions of globalization however...
 featured: 0
 tags: general education essay 
 ---
 Globalization brings many changes to people’s lives all over the 
-world. There are several definitions of globalization however the 
+world. There are several definitions of globalization however the k
 Merriam-Webster meaning is as follows. Globalization is the process by 
 which businesses and other organizations develop international influence
  or start operating on an international scale. From shifting social 
