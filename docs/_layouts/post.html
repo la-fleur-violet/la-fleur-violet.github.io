@@ -13,11 +13,9 @@ layout: default
         </time>
         {%- if page.author -%}
         {% assign author = site.data.authors[page.author] %}
-        <a rel="author"
-  href="https://twitter.com/{{ author.twitter }}"
-  title="{{ author.name }}">
-    {{ author.name }}
-</a>
+        <a rel="author" href="https://twitter.com/{{ author.twitter }}" title="{{ author.name }}">
+          {{ author.name }}
+        </a>
         {%- endif -%}
       </p>
     </header>
@@ -40,9 +38,20 @@ layout: default
         <input type="email" id="subs-email" placeholder="Type your email address.">
         <button id="subs-button">Subscribe!</button>
       </div>
-      <p style="margin-top: 10px;">By subscribing, you agree to our <a href="https://ourclass-edu.web.app/terms">Terms and Conditions</a> and <a
-          href="https://ourclass-edu.web.app/privacy">Privacy Policy</a>.</p>
+      <p style="margin-top: 10px;">By subscribing, you agree to our <a href="https://ourclass-edu.web.app/terms">Terms
+          and Conditions</a> and <a href="https://ourclass-edu.web.app/privacy">Privacy Policy</a>.</p>
       <hr style="margin-top: 20px;">
+    </div>
+    <div class="auth-info">
+      {%- if page.author -%}
+      {% assign author = site.data.authors[page.author] %}
+      <img src="{{ author.dp }}" height="100px" width="100px" style="border-radius: 200px;">
+      <a rel="author" href="https://twitter.com/{{ author.twitter }}" title="{{ author.name }}">
+        {{ author.name }}</a>
+        <div>
+          {{author.bio}}
+        </div>
+        {%- endif -%}
     </div>
   </article>
   <div class="related">
