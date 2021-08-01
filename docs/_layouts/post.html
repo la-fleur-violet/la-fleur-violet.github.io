@@ -7,16 +7,18 @@ layout: default
     <header class="post-header">
       <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
       <p class="post-meta">
+        {%- if page.author -%}
+        {% assign author = site.data.authors[page.author] %}
+        <a class="author" rel="author" href="https://twitter.com/{{ author.twitter }}" title="{{ author.name }}">
+          {{ author.name }}
+        </a>
+        {%- endif -%}
+        <br>
         <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
           {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
           {{ page.date | date: date_format }}
         </time>
-        {%- if page.author -%}
-        {% assign author = site.data.authors[page.author] %}
-        <a rel="author" href="https://twitter.com/{{ author.twitter }}" title="{{ author.name }}">
-          {{ author.name }}
-        </a>
-        {%- endif -%}
+        
       </p>
     </header>
 
@@ -29,7 +31,18 @@ layout: default
     {%- endif -%}
 
     <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-
+    <div class="auth-info">
+      <hr style="margin-bottom: 20px;">
+      {%- if page.author -%}
+      {% assign author = site.data.authors[page.author] %}
+      <img id="auth-dp" src="{{ author.dp }}" height="100px" width="100px">
+      <a class="auth-bio-title" rel="author" href="https://twitter.com/{{ author.twitter }}" title="{{ author.name }}">
+        {{ author.name }}</a>
+      <p>
+        {{author.bio}}
+      </p>
+      {%- endif -%}
+    </div>
     <div class="subs-foot">
       <hr style="margin-bottom: 20px;">
       <h2>Subscribe to our Newsletter</h2>
@@ -42,17 +55,7 @@ layout: default
           and Conditions</a> and <a href="https://ourclass-edu.web.app/privacy">Privacy Policy</a>.</p>
       <hr style="margin-top: 20px;">
     </div>
-    <div class="auth-info">
-      {%- if page.author -%}
-      {% assign author = site.data.authors[page.author] %}
-      <img src="{{ author.dp }}" height="100px" width="100px" style="border-radius: 200px;">
-      <a rel="author" href="https://twitter.com/{{ author.twitter }}" title="{{ author.name }}">
-        {{ author.name }}</a>
-        <div>
-          {{author.bio}}
-        </div>
-        {%- endif -%}
-    </div>
+  
   </article>
   <div class="related">
 
