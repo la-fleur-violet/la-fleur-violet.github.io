@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "What is Discovery"
-date:   2021-03-13 11:10:34 +0530
-categories: new test small
-related_image: "/assets/discover.svg"
+title: What is Discovery
+date: 2021-07-04 13:07:16 +0530
+categories: Law
+related_image: assets/files/discover.svg
 excerpt: Discovery in a civil lawsuit is the process of obtaining and exchanging evidence. It is structured by rules of procedure.
 featured: 0
-tags: education general issues
+tags: law civil essay 
 ---
 ![Head Image](/assets/discover.svg)
 #### When does discovery happen in a lawsuit

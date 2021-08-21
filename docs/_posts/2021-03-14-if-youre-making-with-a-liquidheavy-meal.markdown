@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "If you’re making with a liquid-heavy meal"
-date:   2021-04-13 11:10:34 +0530
-categories: new test small
-related_image: "/assets/meal.jpg"
+title: If you’re making with a liquid-heavy meal
+date: 2021-03-14 20:59:00 +0530
+categories: Nonsense
+related_image: assets/files/meal.jpg
 excerpt: You may have heard that is just not only difficult to remove (especially if you would be more that a piece of raw potatoes).
 featured: 0
-tags: education general issues
+tags: nonsense writeup  
 ---
 ![Head Image](/assets/meal.jpg)
 

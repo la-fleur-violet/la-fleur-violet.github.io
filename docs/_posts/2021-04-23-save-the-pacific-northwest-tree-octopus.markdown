@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Save The Pacific Northwest Tree Octopus"
-date:   2021-03-11 11:10:34 +0530
-categories: new test small
-related_image: "/assets/tree_octopus.jpg"
-excerpt: The Pacific Northwest tree octopus can be found in the temperate rainforests of the Olympic Peninsula on the west coast of North America. 
-featured: 0
-tags: education general issues
+title: Save The Pacific Northwest Tree Octopus
+date: 2021-04-23 18:40:28 +0530
+categories: Nature
+related_image: assets/files/tree_octopus.jpg
+excerpt: The Pacific Northwest tree octopus can be found in the temperate rainforests of the Olympic Peninsula on the west coast of North America.
+featured: 2
+tags: nature endangered animals 
 ---
 ![Head Image](/assets/tree_octopus.jpg)
 The Pacific Northwest tree octopus (*Octopus paxarbolis*) can be found in the [temperate rainforests](http://en.wikipedia.org/wiki/Temperate_rainforest) of the Olympic Peninsula on the west coast of North America. Their 
